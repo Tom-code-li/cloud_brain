@@ -26,9 +26,11 @@ INSERT INTO outpatient_visit (visit_id, registration_id, patient_id, doctor_id, 
 INSERT INTO exam_lab_order (order_id, order_no, visit_id, record_id, patient_id, apply_doctor_id, execute_dept_id, order_type, clinical_diagnosis, purpose, total_amount, fee_status, status, applied_at) VALUES
   (1, 'EXLAB001', 1, 1, 1, 2, 3, '检查', '急性上呼吸道感染待查', '评估肺部感染', 80.00, '已支付', '待执行', CURRENT_TIMESTAMP),
   (2, 'EXLAB002', 1, 1, 1, 2, 4, '检验', '急性上呼吸道感染待查', '评估炎症指标', 35.00, '已支付', '待执行', CURRENT_TIMESTAMP),
-  (3, 'EXLAB003', 1, 1, 1, 2, 3, '检查', '急性上呼吸道感染待查', '未支付检查', 80.00, '待支付', '待缴费', CURRENT_TIMESTAMP);
+  (3, 'EXLAB003', 1, 1, 1, 2, 3, '检查', '急性上呼吸道感染待查', '未支付检查', 80.00, '待支付', '待缴费', CURRENT_TIMESTAMP),
+  (4, 'EXLAB004', 1, 1, 1, 2, 3, '检查', '急性上呼吸道感染待查', '已退费检查', 80.00, '已退费', '已完成', CURRENT_TIMESTAMP);
 
 INSERT INTO exam_lab_order_item (order_item_id, order_id, item_id, item_name, item_type, unit_price, quantity, amount, status, result_summary) VALUES
   (101, 1, 1, '胸部DR正位片', '检查', 80.00, 1.00, 80.00, '待执行', NULL),
   (102, 2, 2, '血常规', '检验', 35.00, 1.00, 35.00, '待执行', NULL),
-  (103, 3, 1, '胸部DR正位片', '检查', 80.00, 1.00, 80.00, '待缴费', NULL);
+  (103, 3, 1, '胸部DR正位片', '检查', 80.00, 1.00, 80.00, '待缴费', NULL),
+  (104, 4, 1, '胸部DR正位片', '检查', 80.00, 1.00, 80.00, '已完成', NULL);

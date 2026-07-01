@@ -1,35 +1,24 @@
+server:
+  port: 9400
+
 spring:
   application:
-    name: doctor-platform-backend
-  config:
-    import: optional:file:.env[.properties]
+    name: medical-exam-backend
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://${DB_HOST:127.0.0.1}:${DB_PORT:3306}/${DB_NAME:doctor_platform}?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
-    username: ${DB_USERNAME:root}
-    password: ${DB_PASSWORD:root}
-
-server:
-  port: ${SERVER_PORT:8080}
+    url: ${MEDICAL_EXAM_DB_URL:jdbc:mysql://localhost:3306/doctor_platform?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai}
+    username: ${MEDICAL_EXAM_DB_USERNAME:root}
+    password: ${MEDICAL_EXAM_DB_PASSWORD:}
 
 mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*.xml
   configuration:
     map-underscore-to-camel-case: true
-  global-config:
-    db-config:
-      id-type: auto
 
-platform:
-  jwt:
-    secret: ${JWT_SECRET:doctor-platform-jwt-secret-please-change}
-    expire-minutes: ${JWT_EXPIRE_MINUTES:240}
-  ai:
-    provider: ${AI_PROVIDER:simulated}
-    model-name: ${AI_MODEL_NAME:simulated-outpatient-ai}
-    api-key: ${AI_API_KEY:replace-me}
-    base-url: ${AI_BASE_URL:https://api.example.com}
-    enabled: ${AI_ENABLED:true}
-
-logging:
-  level:
-    com.doctor.platform: info
+ai:
+  provider: ${AI_PROVIDER:simulated}
+  ant-ling:
+    api-key: ${ANT_LING_API_KEY:}
+    base-url: ${ANT_LING_BASE_URL:https://api.ant-ling.com/v1/}
+    model: ${ANT_LING_MODEL:Ling-2.6-flash}
+    timeout-seconds: ${ANT_LING_TIMEOUT_SECONDS:30}
