@@ -1,7 +1,9 @@
 backend/.env
+backend-medical-exam/.env
 frontend/.env
 
 backend/target/
+backend-medical-exam/target/
 frontend/node_modules/
 frontend/dist/
 
