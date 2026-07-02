@@ -2,7 +2,7 @@
   application:
     name: doctor-platform-backend
   config:
-    import: optional:file:.env[.properties]
+    import: optional:file:backend/.env[.properties],optional:file:.env[.properties]
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://${DB_HOST:127.0.0.1}:${DB_PORT:3306}/${DB_NAME:doctor_platform}?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true

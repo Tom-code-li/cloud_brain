@@ -1,4 +1,4 @@
-import http from './http';
+import http from './pharmacyHttp.js';
 
 export function getDispatchQueue(params = {}) {
   return http.get('/pharmacy/dispatch/queue', { params });
