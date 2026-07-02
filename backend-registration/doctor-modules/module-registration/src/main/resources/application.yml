@@ -1,0 +1,18 @@
+server:
+  port: 9200
+
+doctor:
+  registration:
+    db:
+      host: "${REGISTRATION_DB_HOST:${DB_HOST:localhost}}"
+      port: "${REGISTRATION_DB_PORT:${DB_PORT:3306}}"
+      name: "${REGISTRATION_DB_NAME:${DB_NAME:doctor_platform}}"
+
+spring:
+  datasource:
+    url: "${REGISTRATION_DB_URL:jdbc:mysql://${doctor.registration.db.host}:${doctor.registration.db.port}/${doctor.registration.db.name}?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true}"
+    username: "${REGISTRATION_DB_USERNAME:${DB_USERNAME:root}}"
+    password: "${REGISTRATION_DB_PASSWORD:${DB_PASSWORD:}}"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      initialization-fail-timeout: -1
