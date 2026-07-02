@@ -1,65 +1,65 @@
-import http from './http';
+import registrationHttp from './registrationHttp.js';
 
 export function syncPatient(payload) {
-  return http.post('/registration/patient/sync', payload);
+  return registrationHttp.post('/registration/patient/sync', payload);
 }
 
 export function getRegistrationDepartments() {
-  return http.get('/registration/departments');
+  return registrationHttp.get('/registration/departments');
 }
 
 export function getRegistrationDoctors(params = {}) {
-  return http.get('/registration/doctors', { params });
+  return registrationHttp.get('/registration/doctors', { params });
 }
 
 export function getRegistrationSchedules(params = {}) {
-  return http.get('/registration/schedules', { params });
+  return registrationHttp.get('/registration/schedules', { params });
 }
 
 export function submitOfflineRegistration(payload) {
-  return http.post('/registration/offline/submit', payload);
+  return registrationHttp.post('/registration/offline/submit', payload);
 }
 
 export function submitOnlineRegistration(payload) {
-  return http.post('/registration/online/submit', payload);
+  return registrationHttp.post('/registration/online/submit', payload);
 }
 
 export function chargeRegistration(payload) {
-  return http.post('/registration/fee/charge', payload);
+  return registrationHttp.post('/registration/fee/charge', payload);
 }
 
 export function chargeFeeOrder(payload) {
-  return http.post('/registration/fee/order/charge', payload);
+  return registrationHttp.post('/registration/fee/order/charge', payload);
 }
 
 export function getRegistrationQueue(params = {}) {
-  return http.get('/registration/queue', { params });
+  return registrationHttp.get('/registration/queue', { params });
 }
 
 export function getOnlinePendingRegistrations() {
-  return http.get('/registration/online/pending');
+  return registrationHttp.get('/registration/online/pending');
 }
 
 export function confirmOnlineRegistration(registrationId) {
-  return http.put('/registration/online/confirm', null, {
+  return registrationHttp.put('/registration/online/confirm', null, {
     params: { registrationId }
   });
 }
 
 export function getPendingFees(params = {}) {
-  return http.get('/registration/fee/pending', { params });
+  return registrationHttp.get('/registration/fee/pending', { params });
 }
 
 export function getFeeHistory(params = {}) {
-  return http.get('/registration/fee/history', { params });
+  return registrationHttp.get('/registration/fee/history', { params });
 }
 
 export function checkRefund(feeOrderId) {
-  return http.get('/registration/fee/refund/check', {
+  return registrationHttp.get('/registration/fee/refund/check', {
     params: { feeOrderId }
   });
 }
 
 export function refundFee(payload) {
-  return http.post('/registration/fee/refund', payload);
+  return registrationHttp.post('/registration/fee/refund', payload);
 }

@@ -9,6 +9,8 @@ doctor:
       name: "${REGISTRATION_DB_NAME:${DB_NAME:doctor_platform}}"
 
 spring:
+  config:
+    import: optional:file:../../.env[.properties]
   datasource:
     url: "${REGISTRATION_DB_URL:jdbc:mysql://${doctor.registration.db.host}:${doctor.registration.db.port}/${doctor.registration.db.name}?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true}"
     username: "${REGISTRATION_DB_USERNAME:${DB_USERNAME:root}}"

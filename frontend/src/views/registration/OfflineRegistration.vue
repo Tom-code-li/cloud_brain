@@ -9,7 +9,7 @@ import {
   submitOfflineRegistration,
   syncPatient
 } from '../../api/registration'
-import { useAuthStore } from '../../stores/auth'
+import { buildRegistrationAiHeaders, buildRegistrationAiUrl } from '../../api/registrationAiHttp.js'
 
 const loading = ref(false)
 const aiLoadingScene = ref('')
@@ -18,7 +18,6 @@ const patient = ref(null)
 const departments = ref([])
 const doctors = ref([])
 const schedules = ref([])
-const auth = useAuthStore()
 const aiSuggestion = ref('请输入主诉后点击 AI 分诊建议。')
 const aiScenes = [
   { sceneCode: 'TRIAGE', label: 'AI 分诊建议' },
@@ -33,37 +32,12 @@ function formatLocalDate(date = new Date()) {
   return `${year}-${month}-${day}`
 }
 
-function buildRegistrationAiStreamUrl({ sceneCode, businessId, patientId, query }, direct = false) {
-  const baseUrl = direct ? 'http://127.0.0.1:9600' : '/api'
-  return `${baseUrl}/ai/registration/stream`
-}
-
-function aiRequestHeaders(includeAuth) {
-  const headers = {
-    'Content-Type': 'application/json',
-    'X-Doctor-Id': String(auth.doctor?.doctorId || '')
-  }
-  if (includeAuth && auth.token && !auth.token.startsWith('demo-token-')) {
-    headers.Authorization = `Bearer ${auth.token}`
-  }
-  return headers
-}
-
 async function fetchRegistrationAiStream(params) {
-  const useGateway = Boolean(auth.token && !auth.token.startsWith('demo-token-'))
-  let response = await fetch(buildRegistrationAiStreamUrl(params, !useGateway), {
+  return fetch(buildRegistrationAiUrl(), {
     method: 'POST',
-    headers: aiRequestHeaders(useGateway),
+    headers: buildRegistrationAiHeaders(),
     body: JSON.stringify(params)
   })
-  if (!response.ok && useGateway && [401, 403].includes(response.status)) {
-    response = await fetch(buildRegistrationAiStreamUrl(params, true), {
-      method: 'POST',
-      headers: aiRequestHeaders(false),
-      body: JSON.stringify(params)
-    })
-  }
-  return response
 }
 
 const form = reactive({
