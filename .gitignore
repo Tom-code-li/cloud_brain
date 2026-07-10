@@ -8,6 +8,21 @@ backend-medical-exam/target/
 frontend/node_modules/
 frontend/dist/
 
+# ====================
+# Admin Backend (Java / Spring Boot / Maven)
+# ====================
+admin/backen/target/
+admin/backen/.env
+admin/backen/*.log
+
+# ====================
+# Admin Frontend (Vue 3 / Vite)
+# ====================
+admin/frontend/node_modules/
+admin/frontend/dist/
+admin/frontend/.env
+admin/frontend/coverage/
+
 *.log
 .DS_Store
 Thumbs.db
