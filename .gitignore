@@ -12,7 +12,7 @@ frontend/dist/
 # Admin Backend (Java / Spring Boot / Maven)
 # ====================
 admin/backen/target/
-admin/backen/.env
+admin/backen/**/.env
 admin/backen/*.log
 
 # ====================
