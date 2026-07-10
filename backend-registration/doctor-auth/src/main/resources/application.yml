@@ -1,0 +1,7 @@
+server:
+  port: 9100
+
+doctor:
+  jwt:
+    secret: ${DOCTOR_JWT_SECRET:01234567890123456789012345678901}
+    ttl-seconds: ${DOCTOR_JWT_TTL_SECONDS:3600}

@@ -1,0 +1,6 @@
+server:
+  port: 9600
+
+spring:
+  config:
+    import: optional:file:../../.env[.properties]

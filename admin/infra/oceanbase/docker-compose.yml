@@ -1,0 +1,10 @@
+services:
+  oceanbase:
+    image: oceanbase/oceanbase-ce
+    container_name: ob-admin-local
+    environment:
+      MINI_MODE: "1"
+    ports:
+      - "2881:2881"
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
