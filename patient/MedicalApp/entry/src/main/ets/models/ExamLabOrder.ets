@@ -1,0 +1,23 @@
+export class ExamLabOrder {
+  orderId: number = 0
+  orderNo: string = ''
+  visitId: number = 0
+  recordId: number = 0
+  patientId: number = 0
+  applyDoctorId: number = 0
+  executeDeptId: number = 0
+  orderType: string = ''
+  clinicalDiagnosis: string = ''
+  purpose: string = ''
+  examSite: string = ''
+  specimenType: string = ''
+  remark: string = ''
+  priority: string = ''
+  collectionWay: string = ''
+  totalAmount: number = 0
+  feeStatus: string = ''
+  status: string = ''
+  appliedAt: string = ''
+  executedAt: string = ''
+  completedAt: string = ''
+}

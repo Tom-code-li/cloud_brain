@@ -1,0 +1,32 @@
+export class ApiConfig {
+  static readonly BASE_URL: string = 'http://10.0.2.2:8088';
+  static readonly LOGIN: string = '/api/patient/login';
+  static readonly LOGIN_FORCE: string = '/api/patient/login-force';
+  static readonly LOGOUT: string = '/api/patient/logout/';
+  static readonly REGISTER: string = '/api/patient/register';
+  static readonly PATIENT_INFO: string = '/api/patient/info/';
+  static readonly PATIENT_UPDATE: string = '/api/patient/update';
+  static readonly CHANGE_PASSWORD: string = '/api/patient/change-password';
+  static readonly DEPARTMENTS: string = '/api/registration/departments';
+  static readonly DOCTORS: string = '/api/registration/doctors/';
+  static readonly SCHEDULES: string = '/api/registration/schedules/';
+  static readonly BOOK: string = '/api/registration/book';
+  static readonly MY_REGISTRATIONS: string = '/api/registration/my/';
+  static readonly CANCEL_REGISTRATION: string = '/api/registration/cancel/';
+  static readonly MY_RECORDS: string = '/api/medical-record/my/';
+  static readonly RECORD_DETAIL: string = '/api/medical-record/detail/';
+  static readonly MY_PRESCRIPTIONS: string = '/api/prescription/my/';
+  static readonly PRESCRIPTION_DETAIL: string = '/api/prescription/detail/';
+  static readonly PRESCRIPTION_ITEMS: string = '/api/prescription/items/';
+  static readonly DRUG_SEARCH: string = '/api/drug/search';
+  static readonly DRUG_DETAIL: string = '/api/drug/';
+  static readonly EXAM_ORDERS: string = '/api/exam/orders/';
+  static readonly EXAM_REPORTS: string = '/api/exam/reports/';
+  static readonly EXAM_REPORT: string = '/api/exam/report/';
+  static readonly MY_FEES: string = '/api/fee/my/';
+  static readonly UNPAID_FEES: string = '/api/fee/unpaid/';
+  static readonly PAY_FEE: string = '/api/fee/pay/';
+  static readonly AI_CONSULT: string = '/api/ai/consult';
+  static readonly AI_SMART: string = '/api/ai/smart';
+  static readonly AI_MY: string = '/api/ai/my/';
+}

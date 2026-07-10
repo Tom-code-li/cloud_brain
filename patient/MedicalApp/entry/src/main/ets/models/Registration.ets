@@ -1,0 +1,19 @@
+export class Registration {
+  registrationId: number = 0;
+  patientId: number = 0;
+  consultationId: number = 0;
+  deptId: number = 0;
+  doctorId: number = 0;
+  scheduleId: number = 0;
+  operatorUserId: number = 0;
+  source: string = '';
+  registrationNo: string = '';
+  queueNo: string = '';
+  registrationFee: number = 0;
+  feeStatus: string = '';
+  status: string = '';
+  registeredAt: string = '';
+  calledAt: string = '';
+  doctorName: string = '';
+  deptName: string = '';
+}

@@ -1,0 +1,9 @@
+export { HttpClient } from './HttpClient';
+export { PatientService } from './PatientService';
+export { RegistrationService } from './RegistrationService';
+export { MedicalRecordService } from './MedicalRecordService';
+export { PrescriptionService } from './PrescriptionService';
+export { DrugService } from './DrugService';
+export { ExamLabService } from './ExamLabService';
+export { FeeService } from './FeeService';
+export { AiConsultationService } from './AiConsultationService';
