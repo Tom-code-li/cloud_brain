@@ -1,0 +1,223 @@
+=== Build Output ===
+> H:/Huawei/DevEco Studio\tools\node\node.exe H:/Huawei/DevEco Studio\tools\hvigor\bin\hvigorw.js --mode project -p product=default assembleApp -p buildMode=debug --no-daemon
+
+> hvigor Finished ::PreBuildApp... after 1 ms 
+> hvigor UP-TO-DATE :entry:default@PreBuild...  
+> hvigor Finished ::DuplicateDependencyCheck... after 1 ms 
+> hvigor Finished :entry:default@CreateModuleInfo... after 1 ms 
+> hvigor UP-TO-DATE :entry:default@GenerateMetadata...  
+> hvigor Finished :entry:default@ConfigureCmake... after 1 ms 
+> hvigor UP-TO-DATE :entry:default@MergeProfile...  
+> hvigor UP-TO-DATE :entry:default@CreateBuildProfile...  
+> hvigor Finished :entry:default@PreCheckSyscap... after 1 ms 
+> hvigor UP-TO-DATE :entry:default@GeneratePkgContextInfo...  
+> hvigor Finished :entry:default@GeneratePkgSdkInfo... after 3 ms 
+> hvigor Finished :entry:default@ProcessIntegratedHsp... after 1 ms 
+> hvigor Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+> hvigor UP-TO-DATE :entry:default@MakePackInfo...  
+> hvigor Finished :entry:default@SyscapTransform... after 13 ms 
+> hvigor UP-TO-DATE :entry:default@ProcessProfile...  
+> hvigor UP-TO-DATE :entry:default@ProcessRouterMap...  
+> hvigor UP-TO-DATE :entry:default@ProcessShareConfig...  
+> hvigor Finished :entry:default@ProcessStartupConfig... after 2 ms 
+> hvigor Finished :entry:default@BuildNativeWithNinja... after 1 ms 
+> hvigor UP-TO-DATE :entry:default@ProcessResource...  
+> hvigor UP-TO-DATE :entry:default@GenerateLoaderJson...  
+> hvigor UP-TO-DATE :entry:default@ProcessLibs...  
+> hvigor UP-TO-DATE :entry:default@CompileResource...  
+> hvigor UP-TO-DATE :entry:default@DoNativeStrip...  
+> hvigor Finished :entry:default@BuildJS... after 3 ms 
+> hvigor UP-TO-DATE :entry:default@CacheNativeLibs...  
+> hvigor WARN: WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/services/HttpClient.ets:6:28
+ Function may throw exceptions. Special handling is required.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/services/HttpClient.ets:17:28
+ Function may throw exceptions. Special handling is required.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/services/HttpClient.ets:30:28
+ Function may throw exceptions. Special handling is required.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/LoginPage.ets:89:22
+ 'pushUrl' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/LoginPage.ets:121:18
+ 'replaceUrl' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/LoginPage.ets:128:21
+ 'show' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RegisterPage.ets:27:20
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RegisterPage.ets:235:23
+ 'show' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RegisterPage.ets:241:24
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RegisterPage.ets:251:21
+ 'show' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:114:28
+ 'pushUrl' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:156:24
+ 'pushUrl' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:177:24
+ 'pushUrl' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:278:17
+ 'show' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:288:18
+ 'replaceUrl' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DepartmentsPage.ets:46:20
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DepartmentsPage.ets:121:22
+ 'pushUrl' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DoctorsPage.ets:36:20
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DoctorsPage.ets:129:22
+ 'pushUrl' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/SchedulePage.ets:35:5
+ Function may throw exceptions. Special handling is required.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/SchedulePage.ets:35:18
+ 'showDialog' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/SchedulePage.ets:53:24
+ 'showToast' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/SchedulePage.ets:57:18
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/SchedulePage.ets:61:22
+ 'showDialog' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/SchedulePage.ets:78:20
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MyRegistrationsPage.ets:71:5
+ Function may throw exceptions. Special handling is required.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MyRegistrationsPage.ets:71:18
+ 'showDialog' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MyRegistrationsPage.ets:89:24
+ 'showToast' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MyRegistrationsPage.ets:97:22
+ 'showDialog' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MyRegistrationsPage.ets:114:20
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MedicalRecordsPage.ets:26:21
+ 'show' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MedicalRecordsPage.ets:90:20
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MedicalRecordsPage.ets:181:24
+ 'pushUrl' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:43:20
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/PrescriptionsPage.ets:87:20
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/PrescriptionsPage.ets:189:22
+ 'pushUrl' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/PrescriptionDetailPage.ets:94:20
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DrugSearchPage.ets:44:20
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DrugSearchPage.ets:194:22
+ 'pushUrl' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DrugDetailPage.ets:52:20
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/ExamOrdersPage.ets:100:20
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/ExamOrdersPage.ets:386:26
+ 'pushUrl' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/ReportDetailPage.ets:55:20
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/FeeOrdersPage.ets:75:17
+ 'show' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/FeeOrdersPage.ets:85:29
+ 'show' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/FeeOrdersPage.ets:96:29
+ 'show' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/FeeOrdersPage.ets:107:27
+ 'show' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/FeeOrdersPage.ets:139:20
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultPage.ets:32:19
+ 'show' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultPage.ets:63:25
+ 'show' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultPage.ets:75:23
+ 'show' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultPage.ets:98:25
+ 'show' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultPage.ets:110:23
+ 'show' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultPage.ets:129:20
+ 'back' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultPage.ets:365:20
+ 'pushUrl' has been deprecated.
+
+WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultHistoryPage.ets:64:20
+ 'back' has been deprecated.
+
+
+> hvigor Finished :entry:default@CompileArkTS... after 6 s 39 ms 
+> hvigor Finished :entry:default@GeneratePkgModuleJson... after 2 ms 
+> hvigor Finished :entry:default@ProcessCompiledResources... after 1 ms 
+> hvigor Finished :entry:default@PackageHap... after 351 ms 
+> hvigor Finished :entry:default@PackingCheck... after 5 ms 
+> hvigor WARN: Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in H:\Experiment\Code\MedicalApp\build-profile.json5.
+> hvigor Finished :entry:default@SignHap... after 2 ms 
+> hvigor Finished :entry:default@CollectDebugSymbol... after 2 ms 
+> hvigor Finished :entry:assembleHap... after 1 ms 
+> hvigor Finished ::MakeProjectPackInfo... after 3 ms 
+> hvigor Finished ::ProcessProjectPrivacyProfile... after 3 ms 
+> hvigor Finished ::GeneratePackRes... after 1 ms 
+> hvigor Finished ::PackageApp... after 358 ms 
+> hvigor Finished ::SignPackagesFromApp... after 1 ms 
+> hvigor WARN: Will skip sign 'app'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in H:\Experiment\Code\MedicalApp\build-profile.json5.
+> hvigor Finished ::SignApp... after 1 ms 
+> hvigor Finished ::assembleApp... after 1 ms 
+> hvigor BUILD SUCCESSFUL in 11 s 134 ms 
+
+
+Process finished with exit code 0
+

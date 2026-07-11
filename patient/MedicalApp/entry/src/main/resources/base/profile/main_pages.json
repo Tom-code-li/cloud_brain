@@ -1,0 +1,23 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/LoginPage",
+    "pages/RegisterPage",
+    "pages/HomePage",
+    "pages/DepartmentsPage",
+    "pages/DoctorsPage",
+    "pages/SchedulePage",
+    "pages/MyRegistrationsPage",
+    "pages/MedicalRecordsPage",
+    "pages/RecordDetailPage",
+    "pages/PrescriptionsPage",
+    "pages/PrescriptionDetailPage",
+    "pages/DrugSearchPage",
+    "pages/DrugDetailPage",
+    "pages/ExamOrdersPage",
+    "pages/ReportDetailPage",
+    "pages/FeeOrdersPage",
+    "pages/AiConsultPage",
+    "pages/AiConsultHistoryPage"
+  ]
+}

@@ -1,0 +1,23 @@
+export class MedicalRecord {
+  recordId: number = 0
+  visitId: number = 0
+  patientId: number = 0
+  doctorId: number = 0
+  chiefComplaint: string = ''
+  presentIllness: string = ''
+  currentTreatment: string = ''
+  pastHistory: string = ''
+  allergyHistory: string = ''
+  physicalExam: string = ''
+  auxiliaryExam: string = ''
+  diagnosis: string = ''
+  treatmentAdvice: string = ''
+  doctorNote: string = ''
+  finalDiagnosis: string = ''
+  finalOpinion: string = ''
+  confirmedDoctorId: number = 0
+  confirmedAt: string = ''
+  status: string = ''
+  initialSavedAt: string = ''
+  completedAt: string = ''
+}

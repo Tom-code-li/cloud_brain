@@ -1,0 +1,401 @@
+=== Build Output ===
+> H:/Huawei/DevEco Studio\tools\node\node.exe H:/Huawei/DevEco Studio\tools\hvigor\bin\hvigorw.js --mode project -p product=default assembleApp -p buildMode=debug --no-daemon
+
+> hvigor ERROR: Failed :entry:default@CompileArkTS... 
+> hvigor Finished ::PreBuildApp... after 1 ms 
+> hvigor UP-TO-DATE :entry:default@PreBuild...  
+> hvigor Finished ::DuplicateDependencyCheck... after 1 ms 
+> hvigor Finished :entry:default@CreateModuleInfo... after 1 ms 
+> hvigor UP-TO-DATE :entry:default@GenerateMetadata...  
+> hvigor Finished :entry:default@ConfigureCmake... after 1 ms 
+> hvigor UP-TO-DATE :entry:default@MergeProfile...  
+> hvigor UP-TO-DATE :entry:default@CreateBuildProfile...  
+> hvigor Finished :entry:default@PreCheckSyscap... after 1 ms 
+> hvigor UP-TO-DATE :entry:default@GeneratePkgContextInfo...  
+> hvigor Finished :entry:default@GeneratePkgSdkInfo... after 3 ms 
+> hvigor Finished :entry:default@ProcessIntegratedHsp... after 1 ms 
+> hvigor Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+> hvigor UP-TO-DATE :entry:default@MakePackInfo...  
+> hvigor Finished :entry:default@SyscapTransform... after 12 ms 
+> hvigor UP-TO-DATE :entry:default@ProcessProfile...  
+> hvigor UP-TO-DATE :entry:default@ProcessRouterMap...  
+> hvigor UP-TO-DATE :entry:default@ProcessShareConfig...  
+> hvigor Finished :entry:default@ProcessStartupConfig... after 2 ms 
+> hvigor Finished :entry:default@BuildNativeWithNinja... after 1 ms 
+> hvigor UP-TO-DATE :entry:default@ProcessResource...  
+> hvigor UP-TO-DATE :entry:default@GenerateLoaderJson...  
+> hvigor UP-TO-DATE :entry:default@ProcessLibs...  
+> hvigor UP-TO-DATE :entry:default@CompileResource...  
+> hvigor UP-TO-DATE :entry:default@DoNativeStrip...  
+> hvigor Finished :entry:default@BuildJS... after 2 ms 
+> hvigor UP-TO-DATE :entry:default@CacheNativeLibs...  
+> hvigor WARN: 
+1 WARN: ArkTS:WARN: For details about ArkTS syntax errors, see FAQs
+2 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/services/HttpClient.ets:6:28
+ Function may throw exceptions. Special handling is required.
+
+3 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/services/HttpClient.ets:17:28
+ Function may throw exceptions. Special handling is required.
+
+4 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/services/HttpClient.ets:30:28
+ Function may throw exceptions. Special handling is required.
+
+5 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/LoginPage.ets:89:22
+ 'pushUrl' has been deprecated.
+
+6 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/LoginPage.ets:121:18
+ 'replaceUrl' has been deprecated.
+
+7 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/LoginPage.ets:128:21
+ 'show' has been deprecated.
+
+8 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RegisterPage.ets:29:20
+ 'back' has been deprecated.
+
+9 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RegisterPage.ets:245:23
+ 'show' has been deprecated.
+
+10 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RegisterPage.ets:251:24
+ 'back' has been deprecated.
+
+11 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RegisterPage.ets:261:21
+ 'show' has been deprecated.
+
+12 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:120:28
+ 'pushUrl' has been deprecated.
+
+13 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:162:24
+ 'pushUrl' has been deprecated.
+
+14 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:183:24
+ 'pushUrl' has been deprecated.
+
+15 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:279:17
+ 'show' has been deprecated.
+
+16 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:289:18
+ 'replaceUrl' has been deprecated.
+
+17 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DepartmentsPage.ets:43:20
+ 'back' has been deprecated.
+
+18 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DepartmentsPage.ets:118:22
+ 'pushUrl' has been deprecated.
+
+19 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DoctorsPage.ets:33:20
+ 'back' has been deprecated.
+
+20 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DoctorsPage.ets:126:22
+ 'pushUrl' has been deprecated.
+
+21 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/SchedulePage.ets:32:5
+ Function may throw exceptions. Special handling is required.
+
+22 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/SchedulePage.ets:32:18
+ 'showDialog' has been deprecated.
+
+23 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/SchedulePage.ets:50:24
+ 'showToast' has been deprecated.
+
+24 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/SchedulePage.ets:54:18
+ 'back' has been deprecated.
+
+25 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/SchedulePage.ets:58:22
+ 'showDialog' has been deprecated.
+
+26 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/SchedulePage.ets:75:20
+ 'back' has been deprecated.
+
+27 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MyRegistrationsPage.ets:66:5
+ Function may throw exceptions. Special handling is required.
+
+28 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MyRegistrationsPage.ets:66:18
+ 'showDialog' has been deprecated.
+
+29 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MyRegistrationsPage.ets:84:24
+ 'showToast' has been deprecated.
+
+30 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MyRegistrationsPage.ets:92:22
+ 'showDialog' has been deprecated.
+
+31 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MyRegistrationsPage.ets:109:20
+ 'back' has been deprecated.
+
+32 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MedicalRecordsPage.ets:26:21
+ 'show' has been deprecated.
+
+33 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MedicalRecordsPage.ets:90:20
+ 'back' has been deprecated.
+
+34 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MedicalRecordsPage.ets:181:24
+ 'pushUrl' has been deprecated.
+
+35 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:38:20
+ 'back' has been deprecated.
+
+36 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/PrescriptionsPage.ets:87:20
+ 'back' has been deprecated.
+
+37 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/PrescriptionsPage.ets:189:22
+ 'pushUrl' has been deprecated.
+
+38 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/PrescriptionDetailPage.ets:94:20
+ 'back' has been deprecated.
+
+39 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DrugSearchPage.ets:44:20
+ 'back' has been deprecated.
+
+40 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DrugSearchPage.ets:194:22
+ 'pushUrl' has been deprecated.
+
+41 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DrugDetailPage.ets:52:20
+ 'back' has been deprecated.
+
+42 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/ExamOrdersPage.ets:100:20
+ 'back' has been deprecated.
+
+43 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/ExamOrdersPage.ets:386:26
+ 'pushUrl' has been deprecated.
+
+44 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/ReportDetailPage.ets:55:20
+ 'back' has been deprecated.
+
+45 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/FeeOrdersPage.ets:75:17
+ 'show' has been deprecated.
+
+46 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/FeeOrdersPage.ets:85:29
+ 'show' has been deprecated.
+
+47 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/FeeOrdersPage.ets:96:29
+ 'show' has been deprecated.
+
+48 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/FeeOrdersPage.ets:107:27
+ 'show' has been deprecated.
+
+49 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/FeeOrdersPage.ets:142:20
+ 'back' has been deprecated.
+
+50 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultPage.ets:32:19
+ 'show' has been deprecated.
+
+51 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultPage.ets:63:25
+ 'show' has been deprecated.
+
+52 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultPage.ets:75:23
+ 'show' has been deprecated.
+
+53 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultPage.ets:98:25
+ 'show' has been deprecated.
+
+54 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultPage.ets:110:23
+ 'show' has been deprecated.
+
+55 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultPage.ets:129:20
+ 'back' has been deprecated.
+
+56 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultPage.ets:365:20
+ 'pushUrl' has been deprecated.
+
+57 WARN: ArkTS:WARN File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/AiConsultHistoryPage.ets:64:20
+ 'back' has been deprecated.
+
+> hvigor ERROR: 00305015 Rollup Error
+Error Message: Could not resolve "../models/RegisterRequest" from "entry/src/main/ets/pages/RegisterPage.ets". At file: H:\Experiment\Code\MedicalApp\entry\src\main\ets\pages\RegisterPage.ets
+1 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/services/PatientService.ets:28:29
+
+
+2 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/services/PatientService.ets:58:29
+
+
+3 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/services/PatientService.ets:129:29
+
+
+4 ERROR: 10605043 ArkTS Compiler Error
+Error Message: Array literals must contain elements of only inferrable types (arkts-no-noninferrable-arr-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:83:39
+
+
+5 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:84:15
+
+
+6 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:85:15
+
+
+7 ERROR: 10605043 ArkTS Compiler Error
+Error Message: Array literals must contain elements of only inferrable types (arkts-no-noninferrable-arr-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:88:41
+
+
+8 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:89:15
+
+
+9 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:90:15
+
+
+10 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:91:15
+
+
+11 ERROR: 10605043 ArkTS Compiler Error
+Error Message: Array literals must contain elements of only inferrable types (arkts-no-noninferrable-arr-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:94:37
+
+
+12 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:95:15
+
+
+13 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:96:15
+
+
+14 ERROR: 10605043 ArkTS Compiler Error
+Error Message: Array literals must contain elements of only inferrable types (arkts-no-noninferrable-arr-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:99:37
+
+
+15 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:100:15
+
+
+16 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:101:15
+
+
+17 ERROR: 10605043 ArkTS Compiler Error
+Error Message: Array literals must contain elements of only inferrable types (arkts-no-noninferrable-arr-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:104:37
+
+
+18 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:105:15
+
+
+19 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:106:15
+
+
+20 ERROR: 10605043 ArkTS Compiler Error
+Error Message: Array literals must contain elements of only inferrable types (arkts-no-noninferrable-arr-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:109:37
+
+
+21 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:110:15
+
+
+22 ERROR: 10605043 ArkTS Compiler Error
+Error Message: Array literals must contain elements of only inferrable types (arkts-no-noninferrable-arr-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:113:37
+
+
+23 ERROR: 10605038 ArkTS Compiler Error
+Error Message: Object literal must correspond to some explicitly declared class or interface (arkts-no-untyped-obj-literals) At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RecordDetailPage.ets:114:15
+
+
+24 ERROR: 10505001 ArkTS Compiler Error
+Error Message: Cannot find module '../models/RegisterRequest' or its corresponding type declarations. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RegisterPage.ets:4:33
+
+
+25 ERROR: 10505001 ArkTS Compiler Error
+Error Message: Expected 6 arguments, but got 1. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RegisterPage.ets:241:20
+
+
+26 ERROR: 10505001 ArkTS Compiler Error
+Error Message: Argument of type '(result: Result<SysUser>) => void' is not assignable to parameter of type '(value: Result<string>) => void | PromiseLike<void>'.
+  Types of parameters 'result' and 'value' are incompatible.
+    Type 'Result<string>' is not assignable to type 'Result<SysUser>'.
+      Type 'string' is not assignable to type 'SysUser'. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/RegisterPage.ets:242:13
+
+
+27 ERROR: 10505001 ArkTS Compiler Error
+Error Message: Property 'getPatientByUserId' does not exist on type 'typeof PatientService'. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:45:20
+
+
+28 ERROR: 10505001 ArkTS Compiler Error
+Error Message: This comparison appears to be unintentional because the types 'string' and 'number' have no overlap. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:55:15
+
+
+29 ERROR: 10505001 ArkTS Compiler Error
+Error Message: This comparison appears to be unintentional because the types 'string' and 'number' have no overlap. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:57:22
+
+
+30 ERROR: 10505001 ArkTS Compiler Error
+Error Message: Type '{ value: string; action: () => void; }' is not assignable to type 'VoidCallback'.
+  Object literal may only specify known properties, and 'value' does not exist in type 'VoidCallback'. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:293:9
+
+
+31 ERROR: 10505001 ArkTS Compiler Error
+Error Message: Argument of type '(data: Department[]) => void' is not assignable to parameter of type '(value: Result<Department[]>) => void | PromiseLike<void>'.
+  Types of parameters 'data' and 'value' are incompatible.
+    Type 'Result<Department[]>' is missing the following properties from type 'Department[]': length, pop, push, concat, and 28 more. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DepartmentsPage.ets:28:50
+
+
+32 ERROR: 10505001 ArkTS Compiler Error
+Error Message: Argument of type '(data: Doctor[]) => void' is not assignable to parameter of type '(value: Result<Doctor[]>) => void | PromiseLike<void>'.
+  Types of parameters 'data' and 'value' are incompatible.
+    Type 'Result<Doctor[]>' is missing the following properties from type 'Doctor[]': length, pop, push, concat, and 28 more. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/DoctorsPage.ets:18:65
+
+
+33 ERROR: 10505001 ArkTS Compiler Error
+Error Message: Cannot find module '../models/Schedule' or its corresponding type declarations. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/SchedulePage.ets:3:26
+
+
+34 ERROR: 10505001 ArkTS Compiler Error
+Error Message: Argument of type '(data: Schedule[]) => void' is not assignable to parameter of type '(value: Result<DoctorSchedule[]>) => void | PromiseLike<void>'.
+  Types of parameters 'data' and 'value' are incompatible.
+    Type 'Result<DoctorSchedule[]>' is missing the following properties from type 'Schedule[]': length, pop, push, concat, and 28 more. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/SchedulePage.ets:20:69
+
+
+35 ERROR: 10505001 ArkTS Compiler Error
+Error Message: Argument of type '(result: boolean) => void' is not assignable to parameter of type '(value: Result<string>) => void | PromiseLike<void>'.
+  Types of parameters 'result' and 'value' are incompatible.
+    Type 'Result<string>' is not assignable to type 'boolean'. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/SchedulePage.ets:48:13
+
+
+36 ERROR: 10505001 ArkTS Compiler Error
+Error Message: Argument of type '(data: Registration[]) => void' is not assignable to parameter of type '(value: Result<Registration[]>) => void | PromiseLike<void>'.
+  Types of parameters 'data' and 'value' are incompatible.
+    Type 'Result<Registration[]>' is missing the following properties from type 'Registration[]': length, pop, push, concat, and 28 more. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MyRegistrationsPage.ets:47:69
+
+
+37 ERROR: 10505001 ArkTS Compiler Error
+Error Message: Argument of type '(data: Registration[]) => void' is not assignable to parameter of type '(value: Result<Registration[]>) => void | PromiseLike<void>'.
+  Types of parameters 'data' and 'value' are incompatible.
+    Type 'Result<Registration[]>' is missing the following properties from type 'Registration[]': length, pop, push, concat, and 28 more. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MyRegistrationsPage.ets:57:69
+
+
+38 ERROR: 10505001 ArkTS Compiler Error
+Error Message: Argument of type '(result: boolean) => void' is not assignable to parameter of type '(value: Result<string>) => void | PromiseLike<void>'.
+  Types of parameters 'result' and 'value' are incompatible.
+    Type 'Result<string>' is not assignable to type 'boolean'. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/MyRegistrationsPage.ets:82:13
+
+
+39 ERROR: 10505001 ArkTS Compiler Error
+Error Message: Type '{ value: string; action: () => void; }' is not assignable to type 'VoidCallback'.
+  Object literal may only specify known properties, and 'value' does not exist in type 'VoidCallback'. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/FeeOrdersPage.ets:119:9
+
+
+40 ERROR: 10905201 ArkTS Compiler Error
+Error Message: The 'TabContent' component can only be nested in the 'Tabs,HdsTabs' parent component. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:99:9
+
+
+41 ERROR: 10905201 ArkTS Compiler Error
+Error Message: The 'TabContent' component can only be nested in the 'Tabs,HdsTabs' parent component. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:137:9
+
+
+42 ERROR: 10905201 ArkTS Compiler Error
+Error Message: The 'TabContent' component can only be nested in the 'Tabs,HdsTabs' parent component. At File: H:/Experiment/Code/MedicalApp/entry/src/main/ets/pages/HomePage.ets:196:9
+
+
+COMPILE RESULT:FAIL {ERROR:43 WARN:57}
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+> hvigor ERROR: BUILD FAILED in 8 s 215 ms 
+
+
+Process finished with exit code -1
+
